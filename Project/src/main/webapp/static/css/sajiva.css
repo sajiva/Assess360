@@ -1,0 +1,184 @@
+.main-container {
+    background:rgb(241,243,243);
+}
+
+.main-container .top-main-header{
+    border-bottom:1px solid rgba(100,100,100,.7);
+}
+
+.main-content {
+    margin: 20px;
+}
+
+.add-target-group-form {
+    bottom: auto;
+    min-height: 10rem;
+    left: 50%;
+    padding: 2rem;
+    position: relative;
+    right: auto;
+    transform: translate(-50%);
+    min-width: 20rem;
+    width: 80%;
+    max-width: 60rem;
+}
+
+.add-target-group-form input
+{
+    text-align: center;
+    outline: none;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: "Adobe Caslon Pro", sans-serif;
+    padding: 8px 0 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,.7), inset 0 1px rgba(255,255,255,.7);
+    border: none transparent;
+    transition: all 500ms;
+}
+
+.add-target-group-form .btn-target-group {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,.7), inset 0 1px rgba(255,255,255,.7);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+    cursor: pointer;
+    font-family: "Trajan Pro", serif;
+    transition: all 800ms;
+}
+
+.add-target-group-form .btn-target-group:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.7), inset 0 1px 10px #607D8B;
+}
+
+.main-content .table tr {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Adobe Caslon Pro", sans-serif;
+}
+
+.main-content .table th {
+    background-color: rgb(135, 142, 157);
+    color: white;
+    font-size: 25px;
+    font-family: "Trajan Pro", serif;
+}
+
+.main-content .table .target-group :hover{
+    cursor: pointer;
+    background-color: lightsteelblue;
+}
+
+.main-content label {
+    font-family: "Trajan Pro", serif;
+    font-size: 18px;
+}
+
+.my-button-class {
+    background: white;
+    border: none;
+    box-shadow: 0 1px 1px rgba(0,0,0,.7), inset 0 1px rgba(255,255,255,.7);
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+    cursor: pointer;
+    font-family: "Trajan Pro", serif;
+    transition: all 800ms;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.my-button-class:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.7), inset 0 1px 10px #607D8B;
+}
+
+.main-content input {
+    font-family: "Adobe Caslon Pro", sans-serif;
+}
+
+.user-profile-container {
+    text-align: center;
+    margin: 5%;
+    font-family: "Adobe Caslon Pro", sans-serif;
+}
+
+.profile-pic-container {
+    position: relative;
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 5%;
+}
+
+.profile-pic-container input {
+    margin-top: 20px;
+}
+
+.user-profile-container .profile-pic-container input {
+    position: relative;
+    left: 50%;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-pic .thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-info-container {
+    font-family: "Adobe Caslon Pro", sans-serif;
+    position: relative;
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.user-profile-view {
+    font-size: 18px;
+}
+
+.user-profile-view div {
+    height: 34px;
+}
+
+.user-profile-name {
+    font-size: 28px;
+    text-align: center;
+    font-family: "Trajan Pro", serif;
+}
+
+.user-profile-edit .form-control {
+    margin-bottom: 15px;
+    padding: .5em;
+    float: left;
+    width: 100%;
+}
+
+.group-dropdown {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Adobe Caslon Pro", sans-serif;
+    padding-top: 8px;
+    margin-bottom: 15px;
+}
+
+.group-dropdown select {
+    padding-top: 2px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+

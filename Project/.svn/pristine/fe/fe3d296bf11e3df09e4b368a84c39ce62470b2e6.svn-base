@@ -1,0 +1,57 @@
+.target-table-container tbody tr {
+    transition: all 500ms;
+}
+
+.target-table-container tbody tr:hover{
+    background: rgba(0, 87, 236, 0.15);
+    cursor: pointer;
+}
+
+.target-table-container table {
+  margin: 0;
+}
+.target-table-container tbody tr.selected .glyphicon {
+    font-weight: bold;
+	color: #4CAF50;
+}
+
+.ATG-dropdown-box {
+	position: relative;
+    display: inline-block;
+}
+
+.ARG-dropdown-box-content {
+	display: none;
+	border: 1px black solid;
+	font-size: 12px;
+	position: absolute;
+	width: 100%;
+}
+
+.ARG-dropdown-box-content li{
+	border: 1px black solid;
+	color: black;
+	font-size: 12px;
+	position: absolute;
+	width: 100%;
+	display: block;
+}
+
+.dropbtn {
+    background-color: gray;
+    color: black;
+    padding: 16px;
+    font-size: 12px;
+    border: 2px black solid;
+    cursor: pointer;
+	position: relative;
+	width: 130px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.show {
+	display:block;
+}
